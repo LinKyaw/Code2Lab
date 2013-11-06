@@ -1,0 +1,231 @@
+body{
+	margin: 10px;
+}
+.master-container{
+	width:100%;
+	margin-left:auto;
+	margin-right:auto;
+	width:1140px;
+	
+}
+.top-content{
+	top:0px;
+	position: relative;
+	z-index: 999;
+	background:white;
+	width:1140px;
+	float: left;
+
+}
+.logo{
+	position: relative;
+	left: 50px;
+}
+.top-menu{
+	position: absolute;
+	top: 2px;
+	float: right;
+	left: auto;
+	right: 50px;
+	width: 350px;
+}
+
+.horizontal-menu ul{
+
+	margin: 0;
+	padding: 0;
+}
+.horizontal-menu li{
+	float:left;
+	padding: 0 10px;
+	list-style: none;
+	display: inline-block;
+	content: black;
+
+	/*
+	display:block;
+	float:left;
+	padding:0 10px;*/
+
+}
+.horizontal-menu a{
+	text-decoration: none;
+	color: black;
+	font-size: 20;
+}
+#home {
+	background-color: purple;
+}
+.horizontal-menu a:hover,a:active,a:focus{
+	color: yellow;
+	background-color: red;
+}
+
+.header{
+	position: relative;
+	top: 100px;
+	background: url("images/header_bg.png") top center no-repeat;
+	width: 1140px;
+	height: 730px;
+
+}
+
+#for_smart_restaurant{
+
+	position: absolute;
+	top: 50px;
+	float: right;
+	right: 0px;
+	padding: 0 10px;
+	background: white;
+	width: 250px;
+	text-align: center;
+	font-size: 24;
+
+}
+#smartsales_box{
+
+	position: absolute;
+	top: 80px;
+	float: right;
+	right: 0px;
+	padding: 0 0 0 40px;
+	background: purple;
+	width: 270px;
+	text-align: left;
+	font-size: 24;
+}
+
+#equipment{
+	position: absolute;
+	top: 150px;
+	left: 150px;
+}
+
+.ss_div_link a{
+	text-decoration: none;
+	cursor: crosshair;
+}
+
+/*.ss_div_link a:active,
+		a:hover,
+		a:focus{
+
+			opacity: 0.1;
+		}*/
+
+.ss_div_link{
+
+	left: auto;
+	right: auto;
+
+	width: 1140px;
+
+}
+
+.link_style_one{
+	width: 570px;
+	height: 40px;
+	left: auto;
+	right: auto;
+	font-size: 24;
+	text-align: center;
+	padding: 20px 0 10px 0;
+	background-color: green;
+	float:left;
+
+}
+.link_style_two{
+	width: 570px;
+	height: 40px;
+	left: auto;
+	right: auto;
+	font-size: 24;
+	text-align: center;
+	padding: 20px 0 10px 0;
+	background-color: yellow;
+	float:left;
+}
+
+.contents{
+	width: 1140px;
+	left: auto;
+	right: auto;
+}
+
+.content{
+	width: 450px;
+	height: 200px;
+	float:left;
+	padding: 60px;
+}
+.content_image{
+	text-align: center;
+}
+.content :nth-of-type(odd){
+
+}
+.content :nth-of-type(even){
+	text-align: left;
+}
+.content_report{
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-top: 100px;
+	text-align: left;
+}
+.image_report{
+	padding: 50px;
+}
+.bottom_link{
+	width: 1140px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+}
+.bottom_link a{
+	text-decoration: none;
+}
+.link_style_three{
+	width: 300px;
+	height: 40px;
+	margin-left: 240px;
+	margin-right: 10px;
+	float: left;
+	font-size: 24px;
+	text-align: center;
+	padding: 20px 0 10px 0;
+	background-color: green;
+	
+}
+.link_style_four{
+
+	width: 300px;
+	height: 40px;
+	margin-left: 10px;
+	margin-right: 240px;
+	float: left;
+	font-size: 24px;
+	text-align: center;
+	padding: 20px 0 10px 0;
+	background-color: yellow;
+
+}
+
+.bottom{
+	padding: 10px;
+	position: relative;
+	top: 100px;
+	width: 1140px;
+	background-color: gray;
+}
+.bottom li{
+	list-style-type: none;
+}
+.bottom a{
+	text-decoration: none;
+	color: black;
+}
+#help_title{
+	color: white;
+}
